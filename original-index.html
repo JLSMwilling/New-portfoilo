@@ -1,0 +1,181 @@
+<!DOCalt html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>John's portfolio</title>
+        <style>
+            * {
+                outline: 1px solid red;
+            }
+
+            #upperBg {
+                width: 40vw;
+                position: relative;
+                padding: 0;
+            }
+
+            #lowerBg {
+                width: 80vw;
+                display: flex;
+                order: 99;
+            }
+
+            #text-and-svg-curve {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            html {
+                background-image: url(../portfolio/images/gradient.jpg);
+                background-size: cover;
+                box-sizing: border-box;
+            }
+
+            body {
+                background-color: rgb(255, 255, 255);
+                width: 80vw;
+                margin: 0 auto;
+            }
+
+            .svg-coding-icons {
+                width: 3rem;
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: space-around;
+                position: absolute;
+                z-index: 1;
+                padding-left: 0;
+                flex-direction: row;
+            }
+
+            nav li {
+                list-style: none;
+            }
+
+            .nav-buttons,
+            .coding-images-icons {
+                width: 3rem;
+            }
+
+            article h1 {
+                color: #ff0787;
+                margin: 2rem 0 0 3rem;
+            }
+
+            article p {
+                font-size: 1.5rem;
+                color: #ff6b80;
+                position: absolute;
+                /* bottom: 2rem; */
+                left: 7rem;
+                width: 50vw;
+            }
+
+            .purple-button-text {
+                color: #bbb5ff;
+            }
+
+            #curlybracket-n-mancoding{
+                display: flex;
+                flex-direction: column;
+                align-content: space-between;
+            }
+
+            section{
+                display: flex;
+                justify-content: space-evenly;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <main id="text-and-svg-curve">
+
+            <!-- div so h1 and p can be evenly spaced out  -->
+            <article>
+                <h1>So why hire me ?</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Magnam tenetur quos voluptas, beatae debitis maxime consequatur
+                    eum officiis aut reiciendis tempore, corrupti voluptate,
+                    laboriosam illo commodi inventore blanditiis ullam. Ipsa?
+                </p>
+            </article>
+
+
+            <!-- div so nav can be positioned on svg curve  -->
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="nav-buttons"
+                                    src="images/nav-icons-home.svg" alt="home-button"></a>
+                        </li>
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="nav-buttons"
+                                    src="images/nav-icons-resume.svg" alt="resume-button"></a>
+
+                        </li>
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="nav-buttons"
+                                    src="images/nav-icons-projects.svg" alt="project-button"></a>
+
+                        </li>
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="nav-buttons"
+                                    src="images/nav-icons-linkedin.svg" alt="linkedin-link"></a>
+
+                        </li>
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="nav-buttons"
+                                    src="images/nav-icons-github.svg" alt="github-link"></a>
+
+                    </ul>
+                </nav>
+                <img id="upperBg" src="../portfolio/images/top-svg.svg" alt="top-curved-background-image">
+            </div>
+
+        </main>
+
+
+        <section>
+            <div>
+                <p class="purple-button-text">
+                    view projects
+                </p>
+                <img src="images/tools.png" alt="tools">
+            </div>
+
+            <div>
+                <p class="purple-button-text">
+                    get in contact
+                </p>
+                <img src="images/holding-hand.png" alt="hands">
+            </div>
+
+            <div id="curlybracket-n-mancoding">
+                <img class="coding-images-icons" src="images/curly-bracket.svg" alt="">
+                <img src="images/man-coding.jpg" alt="man-coding">
+            </div>
+        </section>
+
+        <aside>
+            <img src="images/adobes-power-house.png" alt="adobe's icons">
+            <img src="images/arrow.png" alt="arrow">
+            <div>
+                <img src="images/more-icon.png" alt="more-icon">
+                <p class="purple-button-text">view more skills</p>
+            </div>
+        </aside>
+        <img class="lowerBg" src="../portfolio/images/down-svg-and-symbols.svg" alt="bottom-curved-background-image">
+
+        <!-- <img class="svg-coding-icons" src="images/bracket.svg" alt="bracket">
+        <img class="svg-coding-icons" src="images/curly-bracket.svg" alt="curly-bracket"> -->
+    </body>
+
+    </html>
